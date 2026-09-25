@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IA para o Meio Ambiente</title>
+    <meta
+      name="description"
+      content="Site interativo sobre como a inteligência artificial pode ajudar o meio ambiente."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand">
+          <span class="brand-mark">AI</span>
+          <span>Meio Ambiente</span>
+        </div>
+        <nav class="nav">
+          <a href="#fluxo">Fluxo</a>
+          <a href="#impactos">Impactos</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">Tecnologia verde</p>
+            <h1>Como a IA pode ajudar a proteger o planeta</h1>
+            <p class="lead">
+              A inteligência artificial pode analisar dados, detectar padrões e apoiar
+              decisões mais rápidas e mais inteligentes em áreas como energia,
+              agricultura, reciclagem e conservação da natureza.
+            </p>
+          </div>
+          <div class="hero-badge">
+            <span>+30%</span>
+            <small>potencial de eficiência em processos sustentáveis</small>
+          </div>
+        </section>
+
+        <section id="fluxo" class="flow-section">
+          <div class="section-heading">
+            <p class="eyebrow">Fluxo</p>
+            <h2>Veja o caminho da IA para a sustentabilidade</h2>
+          </div>
+
+          <div class="diagram" aria-label="Fluxograma sobre IA e meio ambiente">
+            <div class="diagram-line"></div>
+
+            <button class="node active" data-key="dados" aria-label="Coleta de dados">
+              <span>1. Coleta de dados</span>
+            </button>
+            <button class="node" data-key="analise" aria-label="Análise dos dados">
+              <span>2. Análise inteligente</span>
+            </button>
+            <button class="node" data-key="acao" aria-label="Ações sustentáveis">
+              <span>3. Ações e decisões</span>
+            </button>
+            <button class="node" data-key="resultado" aria-label="Resultado ambiental">
+              <span>4. Resultado positivo</span>
+            </button>
+          </div>
+
+          <aside class="info-panel" aria-live="polite">
+            <p class="panel-label">Detalhes</p>
+            <h3 id="panel-title">Coleta de dados</h3>
+            <p id="panel-text"></p>
+            <ul id="panel-list"></ul>
+          </aside>
+        </section>
+
+        <section id="impactos" class="impact-section">
+          <div class="section-heading">
+            <p class="eyebrow">Aplicações</p>
+            <h2>Áreas em que a IA pode fazer diferença</h2>
+          </div>
+
+          <div class="impact-grid">
+            <article class="impact-card">
+              <h3>🌳 Monitoramento ambiental</h3>
+              <p>
+                Detecta áreas de desmatamento, queimadas e mudanças na cobertura
+                vegetal por meio de imagens de satélite e sensores.
+              </p>
+            </article>
+
+            <article class="impact-card">
+              <h3>🚜 Agricultura sustentável</h3>
+              <p>
+                Ajuda a prever a demanda de água, reduzir o uso de fertilizantes e
+                melhorar a produtividade com menos impacto ambiental.
+              </p>
+            </article>
+
+            <article class="impact-card">
+              <h3>⚡ Eficiência energética</h3>
+              <p>
+                Analisa consumo em prédios, fábricas e redes elétricas para reduzir
+                desperdício e equilibrar a demanda.
+              </p>
+            </article>
+
+            <article class="impact-card">
+              <h3>♻️ Gestão de resíduos</h3>
+              <p>
+                Identifica materiais recicláveis com maior precisão e otimiza a coleta
+                e o descarte correto.
+              </p>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+        
